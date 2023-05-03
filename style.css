@@ -44,6 +44,7 @@ body {
     background-size: cover;
     background-position: center;
     clip-path: polygon( 19% 0, 87% 0, 64% 100%, 33% 100%);
+    transition: 20s;
 }
 .rasm3{
     background: url(https://vsegda-pomnim.com/uploads/posts/2022-04/1649141679_70-vsegda-pomnim-com-p-samaya-krasivaya-priroda-v-mire-foto-74.jpg);
