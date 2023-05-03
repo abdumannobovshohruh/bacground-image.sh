@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background: #555;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    position: relative;
+    width: 800px;
+    height: 500px;
+    background: #222;
+}
+
+.rasm {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: all 0.5s;
+}
+.rasm1 {
+    background: url(https://i.pinimg.com/originals/8d/33/80/8d3380e3d13f368c156df01ada661766.jpg);
+    background-size: cover;
+    background-position: center;
+    clip-path: polygon( 0 0, 46% 0, 39% 100%, 0 100%);
+}
+.rasm2{
+    background: url(https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77701487703.jpg);
+    background-size: cover;
+    background-position: center;
+    clip-path: polygon( 19% 0, 87% 0, 64% 100%, 33% 100%);
+}
+.rasm3{
+    background: url(https://vsegda-pomnim.com/uploads/posts/2022-04/1649141679_70-vsegda-pomnim-com-p-samaya-krasivaya-priroda-v-mire-foto-74.jpg);
+    background-size: cover;
+    background-position: center;
+    clip-path: polygon(82% 0, 100% 0, 100% 100%, 63% 100% );
+}
+.rasm1:hover{
+    clip-path: polygon(0 100%, 0 100%, 0 100%, 0 100%);
+}
+.rasm2:hover{
+    clip-path: polygon(0 100%, 0 100%, 0 100%, 0 100%);
+}
+.rasm3:hover{
+    clip-path: polygon(0 100%, 0 100%, 0 100%, 0 100%);
+}
