@@ -33,7 +33,13 @@ body {
     background-position: center;
     clip-path: polygon( 0 0, 46% 0, 39% 100%, 0 100%);
 }
-.rasm2{
+/* .rasm2{
+    background: url(https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77701487703.jpg);
+    background-size: cover;
+    background-position: center;
+    clip-path: polygon( 19% 0, 87% 0, 64% 100%, 33% 100%);
+} */
+.rasm2 {
     background: url(https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77701487703.jpg);
     background-size: cover;
     background-position: center;
@@ -47,10 +53,25 @@ body {
 }
 .rasm1:hover{
     clip-path: polygon(0 100%, 0 100%, 0 100%, 0 100%);
+    background-size: cover;
+        background-position: center;
+        clip-path: none;
+        z-index: 2;
+   
 }
 .rasm2:hover{
     clip-path: polygon(0 100%, 0 100%, 0 100%, 0 100%);
+ 
+        background-size: cover;
+        background-position: center;
+        clip-path: none;
+        z-index: 2;
+
 }
 .rasm3:hover{
     clip-path: polygon(0 100%, 0 100%, 0 100%, 0 100%);
+    background-size: cover;
+        background-position: center;
+        clip-path: none;
+        z-index: 2;
 }
